@@ -13,8 +13,8 @@ screen = pygame.display.set_mode( screen_size )
 numero_de_tiros = 5 
 
 #define o tipo dos objetos naves
-nave1 = pygame.image.load( "blissey_menor_espelhada.png" )
-nave2 = pygame.image.load( "blissey_menor.png" )
+nave1 = pygame.image.load( "chicken_left.png" )
+nave2 = pygame.image.load( "chicken_right.png" )
 
 tiro_nave1 = []
 tiro_nave2 = []
