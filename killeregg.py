@@ -218,9 +218,6 @@ while True:
             if return_game.type == KEYDOWN:
                 estado = "definicoes iniciais"
                 game_over_ciclo = 0
-                print return_game
-                print return_game.type
-                print return_game.key
             elif return_game.type == KEYUP:
                 if return_game.key in  lock_key:
                     estado = "definicoes iniciais"
